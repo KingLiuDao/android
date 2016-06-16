@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  Copyright 2012 GitHub Inc.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
+  ~ Copyright (c) 2015 PocketHub
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
 <resources>
 
     <!-- Error messages -->
@@ -70,6 +70,7 @@
     <string name="loading_commits">Loading Commits…</string>
     <string name="loading_files_and_comments">Loading Files &amp; Comments…</string>
     <string name="loading_refs">Loading Branches &amp; Tags…</string>
+    <string name="loading">Loading…</string>
     <!--  -->
 
 
@@ -94,9 +95,12 @@
     <string name="updating_milestone">Updating Milestone…</string>
     <!--  -->
 
-    <string name="app_name">GitHub</string>
+    <string name="app_name" translatable="false">PocketHub</string>
     <string name="home">Home</string>
+    <string name="log_out">Log Out</string>
     <string name="news">News</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
     <string name="issues">Issues</string>
     <string name="gists">Gists</string>
     <string name="commits">Commits</string>
@@ -107,10 +111,10 @@
     <string name="clear_search_history">Clear History</string>
     <string name="search_history_cleared">Search history cleared</string>
     <string name="login_activity_authenticating">Logging in…</string>
+    <string name="loading_user">Loading user profile…</string>
     <string name="creating_gist">Creating Gist…</string>
     <string name="create">Create</string>
     <string name="create_gist">Create Gist</string>
-    <string name="gist_content_hint">puts \'Hello World!\'</string>
     <string name="make_public">Make this Gist public</string>
     <string name="gist_file_name_hint">file.rb</string>
     <string name="gist">Gist</string>
@@ -236,7 +240,7 @@
     <string name="cancel">Cancel</string>
     <string name="not_sure">NOT SURE</string>
     <string name="authenticator_conflict_title">App Conflict</string>
-    <string name="authenticator_conflict_message">Another installed app is already configured for GitHub authentication.\n\nYou must remove the other app from the Accounts &amp; sync settings and uninstall it before the GitHub app can be used.</string>
+    <string name="authenticator_conflict_message">Another installed app is already configured for PocketHub authentication.\n\nYou must remove the other app from the Accounts &amp; sync settings and uninstall it before the PocketHub app can be used.</string>
     <string name="opening_repository">Opening {0}…</string>
     <string name="commit_compare_title">Commit Compare</string>
     <string name="commit_prefix">Commit\u0020</string>
@@ -302,4 +306,25 @@
     <string name="delete_successful">Repository is deleted</string>
     <string name="login_or_email">Login or Email</string>
 
+    <string name="temporary_login_message"><b>Authenticating is now done through the website,
+        press the log in button to continue.</b>
+        \n\n Since GitHub has added third-party restrictions we are unable to write
+        to certain organizations. You can read more here:\n
+        https://help.github.com/articles/about-third-party-application-restrictions/</string>
+    <string name="organizations">Organizations</string>
+    <string name="error_oauth_not_configured">You won\'t be able to login, because the oauth client and secret aren\'t set
+Read the README.md: https://github.com/pockethub/PocketHub#setup-environment</string>
+
+
+    <string-array name="welcome_texts">
+        <item>So a while ago the GitHub app was discontinued and some of us wanted something new…</item>
+        <item>We move the app under a new name and are now PocketHub</item>
+        <item>Click done and we’ll get you logged in!</item>
+    </string-array>
+
+    <string-array name="welcome_titles">
+        <item>Welcome</item>
+        <item>Long story short</item>
+        <item>Let’s get started</item>
+    </string-array>
 </resources>

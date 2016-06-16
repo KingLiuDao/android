@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  Copyright 2012 GitHub Inc.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
+  ~ Copyright (c) 2015 PocketHub
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
 <resources>
 
     <!-- Error messages -->
@@ -70,6 +70,7 @@
     <string name="loading_commits">Lade Commits…</string>
     <string name="loading_files_and_comments">Lade Dateien &amp; Kommentare…</string>
     <string name="loading_refs">Lade Branches &amp; Tags…</string>
+    <string name="loading">Lade…</string>
     <!--  -->
 
 
@@ -94,11 +95,11 @@
     <string name="updating_milestone">Aktualisiere Meilensteine…</string>
     <!--  -->
 
-    <string name="app_name">GitHub</string>
     <string name="home">Home</string>
     <string name="news">Neuigkeiten</string>
     <string name="issues">Tickets</string>
     <string name="gists">Gists</string>
+    <string name="organizations">Organisationen</string>
     <string name="commits">Commits</string>
     <string name="global_search">GitHub Suche</string>
     <string name="find_repositories">Repositories suchen</string>
@@ -110,7 +111,6 @@
     <string name="creating_gist">Erstelle Gist…</string>
     <string name="create">Erstellen</string>
     <string name="create_gist">Gist erstellen</string>
-    <string name="gist_content_hint">puts \'Hallo Welt!\'</string>
     <string name="make_public">Öffentlicher Gist</string>
     <string name="gist_file_name_hint">dateiname.rb</string>
     <string name="gist">Gist</string>
@@ -187,6 +187,7 @@
     <string name="none">Keine(r)</string>
     <string name="section_issue_labels">Markierungen:</string>
     <string name="log_in">Einloggen</string>
+    <string name="log_out">Ausloggen</string>
     <string name="signup_link">Neu bei GitHub? &lt;a href=\"https://github.com/join\">Hier klicken&lt;/a> um sich anzumelden</string>
     <string name="signup_link_two_factor_auth">Nicht sicher was zu tun ist? &lt;a href=\"https://help.github.com/articles/about-two-factor-authentication\">Hilfe bekommen.&lt;/a></string>
     <string name="connection_failed">Kann nicht zu GitHub verbinden</string>
@@ -262,7 +263,7 @@
 
     <!-- Tab titles, should be as short as possible -->
     <string name="tab_repositories">Repositories</string>
-    <string name="tab_users">User</string>
+    <string name="tab_users">Users</string>
     <string name="tab_news">Neuigkeiten</string>
     <string name="tab_following_self">Ich folge</string>
     <string name="tab_followers_self">Anhänger</string>
@@ -303,5 +304,12 @@
     <string name="delete_successful">Repository ist gelöscht</string>
 
     <string name="login_or_email">Benutzername oder E-Mail-Adresse</string>
+    <string name="loading_user">Lade Benutzerprofil…</string>
+    <string name="temporary_login_message"><b>Die Authentifizierung wird nun über die Website durchgeführt,
+        drücke den Einloggen-Button um fortzufahren.</b>
+        \n\n Da GitHub Restriktionen für Drittanbieter hinzugefügt hat,
+        ist es uns nicht möglich in bestimmten Organisationen zu schreiben.
+        Mehr Informationen darüber hier:\n
+        https://help.github.com/articles/about-third-party-application-restrictions/</string>
 
 </resources>
